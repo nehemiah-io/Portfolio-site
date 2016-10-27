@@ -16,6 +16,7 @@
 		font-size: 30px;
 		font-color: white;
 		text-align: center;
+		padding: 10px;
 		
 	}
 
@@ -26,6 +27,13 @@
 		font-size: 30px;
 		color: white;
 		text-align: center;
+	}
+
+	canvas {
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				background: transparent;
 	}
 
 	.p{
@@ -40,7 +48,7 @@
 	}
 
 	.main{
-			width: 960px;
+			width: 1200px;
 			margin: auto;
 	}
 
@@ -49,11 +57,12 @@
 		height: 300px;
 		margin: auto;
 		position: relative;
+		padding: 10px;
 		border-radius: 150px;
 		background-position: center;
 		background-size: cover;
 		background-image: url("selfPic.jpg");
-		/*transition: 1s;*/
+		transition: 1s;
 		}
 
 	.circle:hover{
@@ -69,13 +78,12 @@
 		margin: 2em;
 		float: left;
 		position: relative;
-		border-radius: 75px;
+		border-radius: 25px;
 		background-position: center;
 		background-size: cover;
 		background-image: url("guard-copy.jpg");
-		/*background-color: black;*/
 		overflow: hidden;
-		/*transition: 2s;*/
+		transition: 2s;
 		}
 
 	.box:hover{ 
@@ -99,7 +107,7 @@
 		margin: 2em;
 		float: left;
 		position: relative;
-		border-radius: 75px;
+		border-radius: 25px;
 		background-position: center;
 		background-size: cover;
 		background-image: url("Zatoon.jpeg");
@@ -107,13 +115,11 @@
 		transition: 2s;
 		}
 		
-		/*box1:hover{
-			background-image: url("Zatoon.jpeg");
-			background-size: cover;
-		}*/
 
 		.title{
 			position: absolute ;
+			text-align: center;
+			color: white;
 			bottom: 0;
 			left: 0 ;
 			width: 100%;

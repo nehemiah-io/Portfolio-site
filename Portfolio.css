@@ -1,138 +1,146 @@
-	body{
-		font-family: Helvetica;
-		font-size: 20px;
-		color: #ddd; 
-		line-height: 1.5; 
-		background-color: #222;
-		background-size: cover;
-		background-position: fixed;
-		background-repeat: no-repeat;
-	}
+body{
+font-family: Helvetica;
+font-size: 20px;
+color: #ddd; 
+line-height: 1.5; 
+background-color: #222;
+background-size: cover;
+background-position: fixed;
+background-repeat: no-repeat;
+}
 
-	h1{
-		font-family: Helvetica;
-		margin: auto;
-		width: 50%;
-		font-size: 30px;
-		font-color: white;
-		text-align: center;
-		padding: 10px;
-		
-	}
+h1{
+font-family: Helvetica;
+margin: auto;
+width: 50%;
+font-size: 30px;
+font-color: white;
+text-align: center;
+padding: 10px;
+}
 
-	h2{
-		font-family: Helvetica;
-		margin: auto;
-		width: 50%;
-		font-size: 30px;
-		color: white;
-		text-align: center;
-	}
+h2{
+font-family: Helvetica;
+margin: auto;
+width: 50%;
+font-size: 30px;
+color: white;
+text-align: center;
+}
 
-	canvas {
-		position: absolute;
-		background:url("background.jpg");
-		background-size: cover;
-		position: relative;
-		margin: auto;
-		width: calc(50% - 1em);
-		
-	}
+li{
+	display: inline;
+	text-align: center;
+	margin: auto;
+}
 
-	.main{
-			width: 100%;
-			margin: auto;
-			
-	}
+canvas {
+position: absolute;
+background:url("background.jpg");
+background-size: cover;
+position: relative;
+margin: auto;
+width: calc(50% - 1em);
 
-	.p{
-		font-family: Helvetica;
-		margin: auto;
-		width: 50%;
-		font-size: 22px;
-		line-height: 1.5;
-		font-color: white;
-		text-align: center;
-		display: block;
-	}
+}
 
+.main{
+width: 100%;
+margin: auto;
+}
 
-	.circle{
-		width: 300px;
-		height: 300px;
-		margin: auto;
-		position: relative;
-		padding: 10px;
-		border-radius: 150px;
-		background-position: center;
-		background-size: cover;
-		background-image: url("selfPic.jpg");
-		transition: 1s;
-		}
+.p{
+font-family: Helvetica;
+margin: auto;
+width: 50%;
+font-size: 22px;
+line-height: 1.5;
+font-color: white;
+text-align: center;
+display: block;
+}
 
-	.circle:hover{
-		background-image: url("selfPic2.jpg");
-		background-size: cover;
-		top: 50%;
-		}
+.circle{
+width: 300px;
+height: 300px;
+margin: auto;
+position: relative;
+padding: 10px;
+border-radius: 150px;
+background-position: center;
+background-size: cover;
+background-image: url("selfPic.jpeg");
+transition: 1s;
+}
 
+.circle:hover{
+background-image: url("selfPic2.jpg");
+background-size: cover;
+top: 50%;
+}
 
-	.box{
-		width: calc(50% - 2em);
-		height: 400px;
-		margin: 1em;
-		float: left;
-		padding: right;
-		position: relative;
-		border-radius: 25px;
-		background-position: center;
-		background-size: cover;
-		background-image: url("guard-copy.jpg");
-		overflow: hidden;
-		transition: 1s;
-		}
+.box{
+width: calc(50% - 2em);
+height: 400px;
+margin: 1em;
+float: left;
+padding: right;
+position: relative;
+border-radius: 25px;
+background-position: center;
+background-size: cover;
+background-image: url("guard-copy.jpg");
+overflow: hidden;
+transition: 1s;
+}
 
-	.box:hover{ 
-		background-image: url("Nemo.jpg");
-		background-size: cover;
-		top: 50%;
-	}
+.box:hover{ 
+background-image: url("Nemo.jpg");
+background-size: cover;
+top: 50%;
+}
 
-	.box p { 
-		font-family: Helvetica;
-		font-size: 24px;
-		margin 0;
-		color: white;
-		position: absolute;
-		}
+.box p { 
+font-family: Helvetica;
+font-size: 24px;
+margin 0;
+color: white;
+position: absolute;
+}
 
+.box1{
+width: calc(50% - 2em);
+height: 400px;
+margin: 1em;
+float: left;
+position: relative;
+border-radius: 25px;
+background-position: center;
+background-size: cover;
+background-image: url("Zatoon.jpeg");
+overflow: hidden;
+transition: 2s;
+}
 
-	.box1{
-		width: calc(50% - 2em);
-		height: 400px;
-		margin: 1em;
-		float: left;
-		position: relative;
-		border-radius: 25px;
-		background-position: center;
-		background-size: cover;
-		background-image: url("Zatoon.jpeg");
-		overflow: hidden;
-		transition: 2s;
-		}
-		
+.title{
+position: absolute ;
+text-align: center;
+color: white;
+bottom: 0;
+left: 0 ;
+width: 100%;
+height: 30px;
+background: rgba(255, 255, 255, 0.7);
+}
 
-	.title{
-		position: absolute ;
-		text-align: center;
-		color: white;
-		bottom: 0;
-		left: 0 ;
-		width: 100%;
-		height: 30px;
-		background: rgba(255, 255, 255, 0.7);
-		}
+.title div{
+margin: 0.5em;
+} 
 
-	.title div{
-			margin: 0.5em;
-		} 
+.nav{
+	background-color: rgba(255, 255, 255, 0.7);
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+
